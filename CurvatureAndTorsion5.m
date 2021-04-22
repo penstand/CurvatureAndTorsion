@@ -43,7 +43,7 @@ for i=1:m
     
     winLen = 30; 
     weight = 0.1;
-    [ka,ta]=frenet_robust_v7([tX;tY;tZ],winLen,weight);
+    [ka,ta]=frenet_robust([tX;tY;tZ],winLen,weight);
 
     kappa(i,1:eInd)=ka;
     tau(i,1:eInd)=ta;
