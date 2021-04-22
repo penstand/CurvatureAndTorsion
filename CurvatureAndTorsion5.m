@@ -1,4 +1,4 @@
-%% Loading data provided by Luis
+%% Loading data
 pixelSize = 11/64; %micron
 frameRate = 1000;
 
